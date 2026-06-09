@@ -1,0 +1,1315 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+	<title>NG旗下 PG官网 柠白.cc</title>
+	<meta charset="utf-8">
+	<meta charset="UTF-8">
+	<meta http-equiv="content-language" content="zh-cn" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<link rel="shortcut icon" href="/favicon.ico" />
+	<meta name="keywords" content="PG 麻将胡了" />
+	<meta name="description" content="NG旗下 十年品牌 值得信赖 旺旺573384978" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+	<style>
+		h1,
+		h2,
+		h3,
+		p,
+		ul,
+		li,
+		body {
+			margin: 0;
+			padding: 0;
+		}
+
+		a {
+			text-decoration: none;
+			color: #0d265e;
+		}
+
+		body {
+			overflow-x: hidden;
+			font-family: 微软雅黑;
+		}
+
+		html {
+			background-color: #FBFBFB;
+		}
+
+		.LYAD-CC {
+			position: relative;
+			min-height: 100vh;
+			box-sizing: border-box;
+			padding-bottom: 72px;
+		}
+
+		.flex-1 {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+
+		.flex-2 {
+			display: flex;
+			align-items: center;
+			flex-direction: column;
+		}
+
+		.flex-3 {
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+		}
+
+		.pc-left,
+		.pc-right {
+			width: 100%;
+		}
+
+		.pc-left {
+			display: flex;
+			flex-direction: column;
+		}
+
+		.pc-left .slideimg {
+			order: 1;
+		}
+
+		.pc-left .msg {
+			order: 2;
+		}
+		.header {
+			padding: 15px;
+			box-sizing: border-box;
+		}
+
+		#menu {
+			cursor: pointer;
+		}
+
+		.header>.left>.text>p:first-child {
+			font-size: 3vw;
+			font-weight: 500;
+		}
+
+		.header>.left>.text>.text-min {
+			font-size: 4.2vw;
+			font-weight: bold;
+			animation: colorChange 3s ease-in-out infinite;
+			display: flex;
+			align-items: center;
+		}
+
+		.header>.left>.text>.text-min>img {
+			width: 5.5vw;
+			margin-left: .7vw;
+		}
+
+		@keyframes colorChange {
+			0% {
+				color: #3498db;
+				/* 初始颜色，淡蓝色 */
+			}
+			50% {
+				color: #2ecc71;
+				/* 中间过渡到翡翠绿 */
+			}
+			100% {
+				color: #e74c3c;
+				/* 最终颜色，深红色 */
+			}
+		}
+
+		.ava {
+			width: 11vw;
+			border-radius: 50%;
+			margin-right: 10px;
+		}
+
+		.header-2 {
+			background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(23,62,177,1) 64%, rgba(0,212,255,1) 100%);
+			color: #FFF;
+			border-radius: 30px 30px 0 0;
+			padding: 35px 0;
+			padding-bottom: 85px;
+			position: relative;
+			overflow: hidden;
+		}
+
+		.popup-LYADCC {
+			background-color: #fff;
+			width: 35%;
+			position: fixed;
+			left: 0;
+			top: 0;
+			flex-direction: column;
+			border-radius: 5vw; /* 将圆角应用到所有角 */
+			padding: 5vw;
+			display: none;
+			z-index: 9999;
+		}
+
+
+		.popup-LYADCC>a {
+			display: flex;
+			align-items: center;
+			font-size: 4.2vw;
+			font-family: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro", "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+		}
+
+		.popup-LYADCC>a:nth-child(2) {
+			margin-top: 5vw;
+		}
+
+		.popup-LYADCC>a>img {
+			width: 6vw;
+			margin-right: 2vw;
+		}
+
+		.usdt-bac {
+			width: 39vw;
+			position: absolute;
+			opacity: .07;
+			top: 2vw;
+			right: -15%;
+		}
+
+		.header-2>p:nth-child(2) {
+			font-weight: bold;
+			text-shadow: 0 4px 4px rgba(0, 0, 0, 1);
+			animation: bounceText 2s ease-in-out infinite;
+			/* 指定动画名称、持续时间、速度函数和重复次数 */
+		}
+
+
+		/* 定义关键帧动画 */
+
+		@keyframes bounceText {
+			0%,
+			20%,
+			50%,
+			80%,
+			100% {
+				transform: translateY(0) scale(1);
+				/* 初始位置和每次跳动的高度，同时取消旋转 */
+			}
+			40% {
+				transform: translateY(-2.7vw) scale(1.1);
+				/* 跳起的高度，同时逆时针旋转 */
+			}
+			60% {
+				transform: translateY(-1.4vw) scale(1);
+				/* 落下的高度，同时顺时针旋转 */
+			}
+		}
+
+		.header-2>.big-text {
+			margin-top: 7px;
+			margin-bottom: 14px;
+		}
+
+		.header-2>.big-text>img {
+			width: 7.7vw;
+		}
+
+		.header-2>.big-text>p {
+			font-size: 7vw;
+			font-weight: bold;
+			margin-left: 7px;
+			align-items: start;
+		}
+
+		.header-2>.big-text>p>font {
+			font-size: 4.5vw;
+			margin-top: 5px;
+		}
+
+		.header-2>.big-text>h1 {
+			font-size: 5.1vw;
+		}
+
+		.header-2>.info-text {
+			background-color: rgba(0, 0, 0, .4);
+			padding: 1.7vw 7vw;
+			border-radius: 10vw;
+			font-size: 3.5vw;
+		}
+
+		.logo {
+			width: 5.7vw !important;
+			margin: 0 5px;
+			animation: rotateAnimation 4s linear infinite;
+			/* 指定动画名称、持续时间、动画速度和重复次数 */
+		}
+
+
+		/* 定义关键帧动画 */
+
+		@keyframes rotateAnimation {
+			0% {
+				transform: rotate(0deg);
+			}
+			100% {
+				transform: rotate(360deg);
+			}
+		}
+
+		.main {
+			padding: 25px;
+			border-radius: 30px 30px 0 0;
+			background-color: #FBFBFB;
+			transform: translateY(-60px);
+		}
+
+		.tishi {
+			font-size: 3.5vw;
+			text-align: center;
+			transform: translateY(-2.5vw);
+			font-weight: bold;
+			color: #fff;
+			-webkit-text-stroke: .5px #000;
+			font-family: "Microsoft YaHei", sans-serif;
+		}
+
+		.main-1 {
+			border-radius: 3vw;
+			background-color: #FFF;
+			box-shadow: 0 0 2.6666666667vw rgba(45, 98, 217, .15);
+		}
+
+		.main-1>ul {
+			padding: 2vw;
+			list-style: none;
+		}
+
+		.main-1>ul>li {
+			width: 28%;
+			text-align: center;
+			padding: 3.5vw 0;
+			border-radius: 3vw;
+			font-weight: bold;
+			font-size: 3.5vw;
+			color: #707489;
+			cursor: pointer;
+			transition: color 0.3s ease;
+		}
+
+		.li-active {
+			color: #FFF !important;
+			background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(23,62,177,1) 64%, rgba(0,212,255,1) 100%);
+		}
+
+		.main-1-content>.content-box {
+			display: none;
+			padding: 10px;
+			padding-top: 0;
+		}
+
+		.main-1-content>.content-box>.content-list {
+			width: 100%;
+			display: flex;
+			flex-wrap: wrap;
+			padding-top: 4vw;
+			border-radius: 3vw;
+		}
+
+		.main-1-content>.content-box>.content-list>.content-item {
+			width: 25%;
+			margin-bottom: 3.7vw;
+		}
+
+		.main-1-content>.content-box>.content-list>.content-item>a {
+			text-decoration: none;
+			color: #000;
+			font-weight: 600;
+			font-size: 3.5vw;
+			position: relative;
+		}
+
+		.red-span {
+			color: red;
+			font-weight: bold;
+		}
+
+		.main-1-content>.content-box>.content-list>.content-item>a>img {
+			width: 15vw;
+			height: 15vw;
+			border-radius: 3vw;
+			box-shadow: 0 0 2.6666666667vw rgba(45, 98, 217, .15);
+			margin-bottom: 3px;
+		}
+
+		.main-2 {
+			color: #0d265e;
+		}
+
+		.main-2>.title {
+			font-size: 4vw;
+			font-weight: bold;
+			margin-left: 3px;
+		}
+
+		.main-2>.card {
+			display: flex;
+			justify-content: space-between;
+			padding: 3.7vw;
+			border-radius: 4vw;
+			margin-top: 2vw;
+			box-shadow: 0 4px 10px 0 rgba(45, 98, 217, .13);
+		}
+
+		.main-2>.card>.card-main>img {
+			width: 10vw;
+			height: 10vw;
+			margin-right: 2.2vw;
+		}
+
+		.main-2>.card>.card-main>.card-info>p:first-child {
+			font-size: 4vw;
+			font-weight: bold;
+		}
+
+		.main-2>.card>.card-main>.card-info>p:nth-child(2) {
+			font-size: 3.3vw;
+			font-weight: 500;
+		}
+
+		.main-2>.card>.left {
+			width: 4vw;
+		}
+
+		.card-bac {
+			background: url(http://z002.tbzq.top/assets/picture/bac.png);
+			background-size: cover;
+			color: #FFF;
+		}
+
+		.card-bac2 {
+			background-color: #1b47c3;
+			color: #FFF;
+			position: relative;
+			overflow: hidden;
+		}
+
+		.card-bac3 {
+			background-color: #332941;
+			color: #FFF;
+			position: relative;
+		}
+		.card-bac4 {
+			background-color: #1871f5;
+			color: #FFF;
+		}
+		.card-bac5 {
+			background-color: #3B3486;
+			color: #FFF;
+		}
+
+		.card-bac6 {
+			background-color: #5d9b;
+			color: #fff;
+		}
+
+		.yh-28q {
+			border-radius: 2vw;
+		}
+
+		.logo-2 {
+			width: 17vw;
+			opacity: .1;
+			position: absolute;
+			right: 3%;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+
+		.main-3 {
+			width: 100%;
+			border-radius: 4vw;
+			margin-top: 7vw;
+			overflow: hidden;
+			box-shadow: 0 4px 10px 0 rgba(45, 98, 217, .13);
+		}
+
+		.main-3>a {
+			width: 100%;
+		}
+
+		.main-3>a>img {
+			width: 100%;
+			height: 42vw;
+		}
+
+		.main-3>a>.main-3-info {
+			width: 100%;
+			padding: 2vw 3vw;
+			padding-bottom: 3.5vw;
+			box-sizing: border-box;
+			font-size: 3.3vw;
+		}
+
+		.main-3>a>.main-3-info>p:first-child {
+			font-size: 3.7vw;
+			font-weight: bold;
+			margin-bottom: 1vw;
+		}
+
+		.main-3>a>.main-3-info>p:nth-child(2) {
+			letter-spacing: .2vw;
+			color: #707489;
+		}
+
+		.google>.google-logo {
+			font-size: 4.2vw;
+			margin-right: 1vw;
+		}
+
+		.google-logo {
+			display: flex;
+			font-weight: bold;
+		}
+
+		.google-logo>span:first-child {
+			color: #4285F4;
+		}
+
+		.google-logo>span:nth-child(2) {
+			color: #EA4335;
+		}
+
+		.google-logo>span:nth-child(3) {
+			color: #FBBC05;
+		}
+
+		.google-logo>span:nth-child(4) {
+			color: #4285F4;
+		}
+
+		.google-logo>span:nth-child(5) {
+			color: #34A853;
+		}
+
+		.google-logo>span:nth-child(6) {
+			color: #EA4335;
+		}
+
+		.footer-sj {
+			margin: 0 auto;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			position: fixed;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			padding: 10px 0;
+			background: #FBFBFB;
+			transform: none;
+			font-size: 3.5vw;
+			font-family: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro", "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+			z-index: 1000;
+		}
+
+		.footer-sj>.footer-sj-main {
+			width: 90%;
+			margin-bottom: 3vw;
+			display: flex;
+			justify-content: center;
+		}
+
+		.footer-sj>.footer-sj-main>a {
+			margin: 0 1.5vw;
+		}
+
+		.footer-sj>.footer-sj-main>a>img {
+			width: 7.9vw;
+		}
+
+		.footer-contact-box {
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			margin-left: 1.5vw;
+			padding: 0.6vw 2.2vw;
+			border-radius: 999px;
+			border: 1px solid rgba(13, 38, 94, .55);
+			background: #fff;
+			color: #0d265e;
+			font-weight: 700;
+			line-height: 1;
+			font-size: 3.2vw;
+			white-space: nowrap;
+		}
+
+		.footer-contact-box:active {
+			opacity: .85;
+		}
+
+		.tips-box {
+			position: relative;
+		}
+
+		.tips-text {
+			color: #FFF;
+			background: red;
+			font-size: 2.5vw;
+			position: absolute;
+			left: 3.5vw;
+			padding: .3vw;
+			font-weight: bold;
+			border-radius: 1vw;
+		}
+
+		@media screen and (min-width: 1200px) {
+			.tishi {
+				display: none;
+			}
+			.ava {
+				width: 3vw;
+			}
+			.header {
+				width: 100%;
+				padding: .7vw 5vw;
+			}
+			.header>.left>.text>p:first-child {
+				font-size: .77vw;
+				font-weight: 500;
+			}
+			.header>.left>.text>.text-min {
+				font-size: 1vw;
+			}
+			.header>.left>.text>.text-min>img {
+				margin-left: .3vw;
+				width: 1.4vw;
+			}
+			.pc-media {
+				margin: 0 auto;
+				margin-top: 3vw;
+				width: 70%;
+				display: flex;
+				border-radius: 2vw;
+				overflow: hidden;
+				box-shadow: 0 0 2.6666666667vw rgba(45, 98, 217, .15);
+				background: #fff;
+			}
+
+			.pc-left,
+			.pc-right {
+				width: 50%;
+				box-sizing: border-box;
+				background: #fff;
+				padding: 1.2vw;
+			}
+
+			.pc-right {
+				border-left: 1px solid rgba(13, 38, 94, .08);
+			}
+
+			.pc-left .msg {
+				margin: 0 0 0.9vw 0;
+			}
+
+			/* PC: marquee above carousel */
+			.pc-left .msg {
+				order: 1;
+			}
+
+			.pc-left .slideimg {
+				order: 2;
+			}
+
+			.bottom-ad {
+				display: none;
+			}
+
+			.pc-right .seo-title-box {
+				margin: 0 0 1vw 0;
+			}
+			.main {
+				width: 50%;
+				padding: 0,0,0,0;
+				transform: translateY(0);
+				border-radius: 0;
+				background-color: #fff;
+			}
+			.header-2 {
+				width: 50%;
+				border-radius: 0;
+				padding: 7vw 0;
+			}
+			.usdt-bac {
+				width: 25vw;
+				position: absolute;
+				opacity: .07;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
+			.header-2>.big-text>img {
+				width: 3vw;
+			}
+			.header-2>.big-text>p {
+				font-size: 2.8vw;
+			}
+			.header-2>.big-text>p>font {
+				font-size: 1.8vw;
+			}
+			.header-2>.big-text>h1 {
+				font-size: 2.1vw;
+			}
+			.header-2>.info-text {
+				padding: 1.7vw 2vw;
+				font-size: 1.2vw;
+			}
+			.popup-LYADCC {
+				width: 10vw;
+				position: fixed;
+				z-index: 999;
+				left: 0;
+				top: 0;
+				border-radius: 1vw;
+				padding: 1vw;
+			}
+			.popup-LYADCC>a {
+				font-size: 1vw;
+			}
+			.popup-LYADCC>a:nth-child(2) {
+				margin-top: 1.2vw;
+			}
+			.popup-LYADCC>a:nth-child(3) {
+				display: none;
+			}
+			.popup-LYADCC>a>img {
+				width: 2vw;
+				margin-right: .35vw;
+			}
+			.google>.google-logo {
+				font-size: 1.4vw;
+				margin-right: 1vw;
+			}
+			.logo {
+				width: 2.3vw !important;
+			}
+			.main-1 {
+				display: block;
+				border-radius: 0;
+				box-shadow: none;
+			}
+			.main-1>ul {
+				width: 35%;
+				height: 20vw;
+				flex-direction: column;
+				justify-content: center;
+				padding: 1vw;
+			}
+			#jhjc-tab {
+				display: block !important;
+			}
+			#yusq-tab {
+				display: block !important;
+			}
+			.main-1>ul>li {
+				width: 100%;
+				padding: .7vw 0;
+				border-radius: .3vw;
+				font-size: 1vw;
+			}
+			.main-1-content {
+				width: 100%;
+			}
+			.main-1-content>.content-box>.content-list {
+				width: 100%;
+				padding-top: 0.8vw;
+				border-radius: 3vw;
+				max-height: clamp(320px, 60vh, 720px);
+				overflow-y: auto;
+				align-content: flex-start;
+			}
+
+			.main-1-content>.content-box>.content-list::-webkit-scrollbar {
+				width: 6px;
+			}
+
+			.main-1-content>.content-box>.content-list::-webkit-scrollbar-track {
+				background: transparent;
+			}
+
+			.main-1-content>.content-box>.content-list::-webkit-scrollbar-thumb {
+				background: rgba(13, 38, 94, .25);
+				border-radius: 10px;
+			}
+			.main-1-content>.content-box>.content-list>.content-item {
+				margin-bottom: 2vw;
+			}
+			.main-1-content>.content-box>.content-list>.content-item>a {
+				font-size: 1vw;
+			}
+			.main-1-content>.content-box>.content-list>.content-item>a>img {
+				width: 3vw;
+				height: 3vw;
+				border-radius: .6vw;
+				margin-bottom: 3px;
+			}
+			.main-2 {
+				display: none;
+			}
+			.main-3 {
+				display: none;
+			}
+			.tips-text {
+				display: none;
+			}
+			.footer-sj {
+				font-size: 1.2vw;
+			}
+			.footer-sj>.footer-sj-main {
+				margin-top: 1.2vw;
+				padding-top: 2vw;
+				width: 50%;
+				margin-bottom: 1.2vw;
+			}
+			.footer-sj>.footer-sj-main>a>img {
+				width: 2vw;
+			}
+
+			.footer-contact-box {
+				margin-left: .6vw;
+				padding: .25vw .8vw;
+				font-size: 1.1vw;
+			}
+		}
+
+		/* ====== oneNav-style carousel ====== */
+		.slideimg {
+			position: relative;
+			max-width: 100%;
+			overflow: hidden;
+		}
+
+		.carousel {
+			position: relative;
+			width: 100%;
+			max-width: 1500px;
+			height: auto;
+			/* Use a dynamic ratio when JS sets --carousel-aspect; fallback keeps old behavior */
+			aspect-ratio: var(--carousel-aspect, 1500 / 720);
+			overflow: hidden;
+			border-radius: 18px;
+		}
+
+		.slide {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			transition: opacity 0.5s ease-in-out;
+		}
+
+		.slide img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+
+		.dots {
+			display: flex;
+			justify-content: center;
+			position: absolute;
+			bottom: 10px;
+			width: 100%;
+			z-index: 10;
+		}
+
+		.dot {
+			width: 10px;
+			height: 10px;
+			margin: 0 5px;
+			background-color: #fff;
+			border-radius: 50%;
+			cursor: pointer;
+			opacity: .85;
+		}
+
+		.dot.active {
+			background-color: #333;
+			opacity: 1;
+		}
+
+		@media (max-width: 768px) {
+			.carousel {
+				border-radius: 14px;
+			}
+		}
+
+		/* bottom random advertise */
+		.bottom-ad {
+			margin: 0.8rem 0rem;
+		}
+
+		.bottom-carousel .bottom-ad-item {
+			width: 100%;
+			height: 100%;
+			display: none;
+		}
+
+		.bottom-carousel .bottom-ad-item img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			display: block;
+		}
+
+		/* ====== SevenNav-style marquee ====== */
+		.msg {
+			margin: 0.8rem 1rem 0.5rem 1rem;
+		}
+
+		.van-notice-bar {
+			color: rgb(100, 120, 177);
+			background: rgb(238, 240, 250);
+			overflow: hidden;
+			white-space: nowrap;
+			position: relative;
+			width: 100%;
+			height: 40px;
+			line-height: 40px;
+			border-radius: 16px;
+		}
+
+		@keyframes scroll-left {
+			0% { transform: translateX(0); }
+			100% { transform: translateX(-100%); }
+		}
+
+		.tb {
+			height: 100%;
+			background: rgb(238, 240, 250);
+			position: relative;
+			z-index: 1;
+			display: block;
+			float: left;
+			padding: 0 10px;
+		}
+
+		.noticeimg {
+			width: 18px;
+			height: 18px;
+		}
+
+		.notice-content {
+			display: inline-block;
+			padding-left: 100%;
+			animation: scroll-left 10s linear infinite;
+			white-space: nowrap;
+		}
+
+		@keyframes textFlow {
+			0% { background-position: 0% 0; }
+			100% { background-position: 300% 0; }
+		}
+
+		.notice-content .rainbow {
+			background: linear-gradient(90deg, red, #0f0, #00f, red);
+			background-size: 300% 100%;
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			animation: textFlow 3s linear infinite;
+			font-weight: 700;
+		}
+
+		.seo-title-box {
+			margin: 0.6rem 0.6rem;
+			padding: 14px 12px;
+			background: #111;
+			color: #fff;
+			border-radius: 16px;
+			box-sizing: border-box;
+			font-weight: 600;
+			line-height: 1.4;
+			font-size: clamp(12px, 3.5vw, 16px);
+			text-align: center;
+		}
+
+
+		.tab-list {
+			display: flex;
+			overflow-x: auto;
+			white-space: nowrap;
+			padding: 0;
+			margin: 0;
+			list-style: none;
+		}
+
+		.tab-li {
+			flex: 0 0 auto;
+			padding: 10px 20px;
+			border-radius: 4px;
+			cursor: pointer;
+			white-space: nowrap;
+		}
+
+		.tab-li:last-child {
+			margin-right: 0;
+		}
+
+		.tab-list::-webkit-scrollbar {
+			display: none;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="LYAD-CC">
+		<div class="header flex-1">
+			<div class="left flex-1">
+				<img src="https://xn--s1rv2af8i.cc/storage/upload/20260319/6de7e5dd9f37334957121ccdd1a0b6fe.jpeg" alt="" class="ava">
+				<div class="text">
+					<p>NG旗下 十年品牌 值得信赖 旺旺573384978</p>
+					<div class="text-min"> NG旗下 PG官网 柠白.cc<img src="https://xn--s1rv2af8i.cc/template/threeNav/assets/img/success.svg"
+							alt=""></div>
+				</div>
+			</div>
+			<div class="right"><img src="https://xn--s1rv2af8i.cc/template/threeNav/assets/img/menu.svg" alt="" id="menu"></div>
+		</div>
+		<div class="popup-LYADCC">
+			<a href="javascript:;" class="contact-link" data-url="https://wng.mechatmall.com/">
+				<img src="https://xn--s1rv2af8i.cc/storage/upload/20260203/926d6946de2d44e983fdca27356821ac.jpeg" alt="旺旺">
+				<span>旺旺 573384978</span>
+			</a>
+		</div>
+		<div class="pc-media">
+			<div class="pc-left">
+				<div class="slideimg">
+					<div class="carousel" id="carousel">
+						<div class="slide">
+							<a href="柠白.com">
+								<img src="https://xn--s1rv2af8i.cc/storage/upload/20260319/aa15f8953fcfa371f847c666701f8c99.jpeg" alt="NG旗下 十年品牌 业界第一 值得信赖！">
+							</a>
+						</div>
+						<div class="slide">
+							<a href="">
+								<img src="https://xn--s1rv2af8i.cc/storage/upload/20260319/1abb49ffeeaf64fa220fd6ab9baa4ed7.webp" alt="汇赢国际 四月份上线 敬请期待！">
+							</a>
+						</div>
+					</div>
+					<div class="dots" id="dots">
+						<span class="dot active"></span>
+						<span class="dot "></span>
+					</div>
+				</div>
+				<div class="msg">
+					<div class="van-notice-bar">
+						<span class="tb">
+							<img src="https://xn--s1rv2af8i.cc/template/threeNav/assets/img/gundonggonggao.png" alt="" class="noticeimg">
+						</span>
+						<div class="notice-content">
+							<span class="rainbow">NG旗下 十年品牌 值得信赖 飞机@xiaodan28 旺旺573384978</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="pc-right">
+				<div class="main-1">
+					<div class="seo-title-box">NG旗下平台 全部注册送88彩金</div>
+					<div class="main-1-content">
+						<div class="content-box " style="display: block;">
+							<div class="content-list">
+								<div class="content-item">
+									<a class="flex-2" href="http://ltb35.top">
+										<img src="https://wsa12s3.shjpdc.com/h5_static/longtengguoji/img/favicon.8ae7e858.ico">
+										<div><span>龙腾国际</span></div>
+									</a>
+								</div>
+								<div class="content-item">
+									<a class="flex-2" href="http://jxp70.top">
+										<img src="https://xn--s1rv2af8i.cc/storage/upload/20260530/4fc4eedba8bb1b3ca340fe7be559073d.jpeg">
+										<div><span>聚鑫汇</span></div>
+									</a>
+								</div>
+								<div class="content-item">
+									<a class="flex-2" href="http://mte88.top">
+										<img src="https://156.241.153.98:30424/favicon.ico">
+										<div><span>梦想国际</span></div>
+									</a>
+								</div>
+								<div class="content-item">
+									<a class="flex-2" href="http://x5fn.top">
+										<img src="https://wsg7s3.fbppua.com/h5_static/xf/img/favicon.6b735829.ico">
+										<div><span>先锋体育</span></div>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="bottom-ad">
+				<div class="carousel bottom-carousel" id="bottomAd">
+					<a href="javascript:;" class="bottom-ad-item" data-url="柠白.com" style="display: none;">
+						<img src="https://xn--s1rv2af8i.cc/storage/upload/20260319/1abb49ffeeaf64fa220fd6ab9baa4ed7.webp" alt="NG旗下 十年品牌 业界第一 值得信赖！">
+					</a>
+					<a href="javascript:;" class="bottom-ad-item" data-url="" style="display: none;">
+						<img src="https://xn--s1rv2af8i.cc/storage/upload/20260319/1abb49ffeeaf64fa220fd6ab9baa4ed7.webp" alt="汇赢国际 四月份上线 敬请期待！">
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer-sj">
+		<div class="footer-sj-main"></div>
+		<span>
+			回血上岸 认准导航
+			<a class="footer-contact-box" href="http://t.me/xiaodan28" target="_blank" rel="noopener noreferrer">点击联系柠白</a>
+		</span>
+	</div>
+
+	<script>
+		// ====== 工具 JS 代码（Ty 核心逻辑） ======
+		(() => {
+			function Ty() {}
+			Ty.prototype.get = (dom, isAll = false) => {
+				if (isAll) {
+					return document.querySelectorAll(dom);
+				} else {
+					return document.querySelector(dom);
+				}
+			};
+
+			Ty.prototype.ErgNode = (nodes, callback) => {
+				const allNode = document.querySelectorAll(nodes);
+				for (let index = 0; index < allNode.length; index++) {
+					callback(allNode[index], index);
+				}
+			};
+
+			Ty.prototype.$Tab = (options) => {
+				const { tabs, active, box } = options;
+				const tab = tabs.split(".")[1];
+				const boxs = $.get(box, true);
+				let pre = null,
+					pre_box = null;
+
+				$.ErgNode(tabs, (item, index) => {
+					if (index == 0) {
+						pre = item;
+						pre_box = boxs[index];
+						item.className = `${tab} ${active}`;
+						boxs[index].style.display = "block";
+					}
+					item.onclick = function () {
+						pre.className = tab;
+						pre_box.style.display = "none";
+						this.className = `${tab}  ${active}`;
+						boxs[index].style.display = "block";
+						pre = this;
+						pre_box = boxs[index];
+					};
+				});
+			};
+
+			Ty.prototype.$Ren = (options) => {
+				const { fat, data, call } = options;
+				let temp = "";
+				const fat_1 = $.get(fat);
+
+				data.forEach((item) => {
+					temp += call(item);
+				});
+
+				fat_1.innerHTML = temp;
+			};
+
+			window.$ = new Ty();
+		})();
+
+		// ====== 业务 JS 代码（页面原始控制逻辑） ======
+		(function () {
+			const popup = document.querySelector('.popup-LYADCC');
+			const menu = document.querySelector('#menu');
+			const gap = 2;
+
+			let open = false;
+
+			function positionPopup() {
+				if (!popup || !menu) return;
+				const rect = menu.getBoundingClientRect();
+				popup.style.position = 'fixed';
+				popup.style.top = `${Math.round(rect.bottom + gap)}px`;
+				popup.style.left = `${Math.round(rect.right - gap)}px`;
+				popup.style.transform = 'translateX(-100%)';
+				popup.style.maxWidth = 'calc(100vw - 8px)';
+
+				// Clamp to viewport if needed
+				const pr = popup.getBoundingClientRect();
+				const vw = window.innerWidth || document.documentElement.clientWidth || 0;
+				if (pr.left < 4) {
+					popup.style.left = '4px';
+					popup.style.transform = 'none';
+				} else if (pr.right > vw - 4) {
+					popup.style.left = `${vw - 4}px`;
+					popup.style.transform = 'translateX(-100%)';
+				}
+			}
+
+			function openPopup() {
+				if (!popup || !menu) return;
+				popup.style.display = 'flex';
+				popup.style.visibility = 'hidden';
+				positionPopup();
+				popup.style.visibility = 'visible';
+				open = true;
+				window.addEventListener('resize', positionPopup);
+				window.addEventListener('scroll', positionPopup, true);
+			}
+
+			function closePopup() {
+				if (!popup) return;
+				popup.style.display = 'none';
+				open = false;
+				window.removeEventListener('resize', positionPopup);
+				window.removeEventListener('scroll', positionPopup, true);
+			}
+
+			if (popup && menu) {
+				menu.addEventListener('click', function () {
+					if (open) closePopup();
+					else openPopup();
+				});
+			}
+
+			const links = document.querySelectorAll('.popup-LYADCC .contact-link');
+			const isValidHttpUrl = (value) => {
+				if (!value) return false;
+				try {
+					const u = new URL(value);
+					return u.protocol === 'http:' || u.protocol === 'https:';
+				} catch (e) {
+					return false;
+				}
+			};
+
+			links.forEach((a) => {
+				a.addEventListener('click', (e) => {
+					const url = a.getAttribute('data-url') || '';
+					if (!isValidHttpUrl(url)) {
+						e.preventDefault();
+						return;
+					}
+					e.preventDefault();
+					window.open(url, '_blank', 'noopener,noreferrer');
+				});
+			});
+
+			const bottomAd = document.querySelector('#bottomAd');
+			if (bottomAd) {
+				const items = bottomAd.querySelectorAll('.bottom-ad-item');
+				if (items && items.length > 0) {
+					const idx = Math.floor(Math.random() * items.length);
+					const item = items[idx];
+					item.style.display = 'block';
+
+					item.addEventListener('click', (e) => {
+						const url = item.getAttribute('data-url') || '';
+						if (!isValidHttpUrl(url)) {
+							e.preventDefault();
+							return;
+						}
+						e.preventDefault();
+						window.open(url, '_blank', 'noopener,noreferrer');
+					});
+				}
+			}
+		})();
+
+		// oneNav-style carousel
+		(function () {
+			let currentIndex = 0;
+			const carousel = document.querySelector('#carousel');
+			const slides = document.querySelectorAll('#carousel .slide');
+			const dots = document.querySelectorAll('#dots .dot');
+			const intervalTime = 3000;
+
+			if (!slides || slides.length === 0) return;
+
+			// Keep the slideshow container's aspect-ratio consistent with the actual ad images
+			(function syncCarouselAspectRatio() {
+				if (!carousel) return;
+				const firstImg = carousel.querySelector('img');
+				if (!firstImg) return;
+
+				const apply = () => {
+					const w = firstImg.naturalWidth;
+					const h = firstImg.naturalHeight;
+					if (!w || !h) return;
+					const ratio = `${w} / ${h}`;
+					document.documentElement.style.setProperty('--carousel-aspect', ratio);
+					carousel.style.setProperty('--carousel-aspect', ratio);
+				};
+
+				if (firstImg.complete) apply();
+				else firstImg.addEventListener('load', apply, { once: true });
+			})();
+
+			function showSlide(index) {
+				slides.forEach((slide, i) => {
+					slide.style.opacity = i === index ? 1 : 0;
+					slide.style.zIndex = i === index ? 1 : 0;
+				});
+				dots.forEach((dot, i) => {
+					dot.classList.toggle('active', i === index);
+				});
+			}
+
+			function nextSlide() {
+				currentIndex = (currentIndex + 1) % slides.length;
+				showSlide(currentIndex);
+			}
+
+			showSlide(0);
+			if (slides.length <= 1) return;
+
+			let timer = setInterval(nextSlide, intervalTime);
+			function restartTimer() {
+				clearInterval(timer);
+				timer = setInterval(nextSlide, intervalTime);
+			}
+
+			// dot click
+			dots.forEach((dot, i) => {
+				dot.addEventListener('click', () => {
+					currentIndex = i;
+					showSlide(currentIndex);
+					restartTimer();
+				});
+			});
+
+			// touch swipe
+			let startX = 0;
+			let endX = 0;
+			if (!carousel) return;
+
+			carousel.addEventListener('touchstart', (e) => {
+				startX = e.touches[0].clientX;
+			}, { passive: true });
+
+			carousel.addEventListener('touchmove', (e) => {
+				endX = e.touches[0].clientX;
+			}, { passive: true });
+
+			carousel.addEventListener('touchend', () => {
+				if (startX - endX > 50) {
+					nextSlide();
+				} else if (endX - startX > 50) {
+					currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+					showSlide(currentIndex);
+				}
+				restartTimer();
+			});
+		})();
+	</script>
+</body>
+
+</html>
